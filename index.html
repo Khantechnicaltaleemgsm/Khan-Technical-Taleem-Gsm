@@ -3,192 +3,154 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Khan Technical Taleem GSM</title>
 <style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f3f6fb;color:#172033}
-header{background:#101d36;color:white;padding:22px 16px;text-align:center}
-header h1{margin:0;font-size:25px}
-header p{color:#b9c8e5;margin-bottom:0}
-nav{background:#172b4d;padding:13px;text-align:center}
-nav a{color:white;text-decoration:none;margin:0 9px;font-size:14px}
-.hero{padding:35px 16px;text-align:center;background:linear-gradient(135deg,#183b70,#087fbd);color:white}
-.hero h2{font-size:27px;margin:0 0 12px}
-.hero p{line-height:1.6}
-.search{max-width:600px;margin:20px auto 0;display:flex;gap:8px}
-.search input{flex:1;min-width:0;padding:14px;border:0;border-radius:8px;font-size:16px}
-.search button{padding:12px 17px;border:0;border-radius:8px;background:#ffbd36;font-weight:bold}
-main{max-width:1050px;margin:auto;padding:20px 14px}
-h2.section{color:#163c70;border-bottom:2px solid #d8e3f1;padding-bottom:10px}
-.card{background:white;padding:18px;border-radius:12px;margin:14px 0;box-shadow:0 3px 12px #17203312}
-.card h3{margin-top:0;color:#145a9c}
-.tag{display:inline-block;background:#e7f1ff;color:#145a9c;padding:5px 9px;border-radius:5px;margin:3px;font-size:13px}
-.detail{line-height:1.8;font-size:14px}
-button{cursor:pointer}
-footer{text-align:center;background:#101d36;color:white;padding:22px;margin-top:30px}
-.small{font-size:13px;color:#66758b}
+body{margin:0;background:#071426;color:#fff;font-family:Arial,sans-serif}
+header{padding:22px;background:#10233d;text-align:center}
+h1{color:#38bdf8;margin:5px}
+main{max-width:900px;margin:25px auto;padding:15px}
+input{width:100%;padding:15px;box-sizing:border-box;border-radius:9px;border:1px solid #345;background:#10233d;color:white;font-size:16px}
+.card{background:#10233d;padding:16px;margin:12px 0;border-radius:10px;border:1px solid #23415f}
+button{background:#087eaf;color:white;border:0;padding:10px 14px;border-radius:7px;margin:5px;cursor:pointer}
+.small{color:#9fb4ca}
+.good{color:#4ade80}.unknown{color:#fbbf24}
+.hidden{display:none}
 </style>
 </head>
 <body>
-
 <header>
 <h1>Khan Technical Taleem GSM</h1>
-<p>Mobile Firmware • GSM Tools • Technical Database</p>
+<p>Mobile Models & GSM Tool Database</p>
 </header>
 
-<nav>
-<a href="#home">Home</a>
-<a href="#models">Models</a>
-<a href="#tools">GSM Tools</a>
-<a href="#guides">Guides</a>
-</nav>
-
-<section class="hero" id="home">
-<h2>GSM Mobile Database</h2>
-<p>Search mobile models, model numbers, firmware information and technical details.</p>
-<div class="search">
-<input id="searchInput" type="search" placeholder="Search model or model number...">
-<button onclick="searchModels()">Search</button>
-</div>
-</section>
-
 <main>
-<section id="models">
-<h2 class="section">Mobile Model Database</h2>
-<div id="results"></div>
-<p class="small">This is an initial sample database. More verified models will be added.</p>
-</section>
-
-<section id="tools">
-<h2 class="section">GSM Tools Information</h2>
-<div class="card">
-<h3>Odin</h3>
-<p>Samsung firmware flashing utility. Use the correct firmware for the exact device model.</p>
-<span class="tag">Samsung</span><span class="tag">Firmware Flashing</span>
-</div>
-<div class="card">
-<h3>Unlock Tool</h3>
-<p>Professional mobile servicing software. Supported functions depend on the device, software version and tool release.</p>
-<span class="tag">GSM Servicing</span>
-</div>
-<div class="card">
-<h3>SamFW Tool</h3>
-<p>Samsung device information and servicing utility. Check official documentation for supported functions.</p>
-<span class="tag">Samsung</span>
-</div>
-</section>
-
-<section id="guides">
-<h2 class="section">Technical Guides</h2>
-<div class="card">
-<h3>Firmware Information</h3>
-<p>Always confirm the exact model number, region and firmware build before downloading or flashing firmware.</p>
-</div>
-<div class="card">
-<h3>FRP and Account Recovery</h3>
-<p>For FRP-related issues, use the manufacturer's official account recovery process or authorized service procedures. Tool compatibility must be verified for each device and software version.</p>
-</div>
-</section>
+<input id="search" placeholder="Search brand, model or model number...">
+<p id="count" class="small">Loading models...</p>
+<section id="models"></section>
+<section id="details" class="hidden"></section>
 </main>
 
-<footer>
-<p>Khan Technical Taleem GSM</p>
-<p class="small">Mobile Technical Information Database</p>
-</footer>
-
 <script>
-const models = [
-{
+let devices = [];
 
-[
-  {
-    "brand": "Samsung",
-    "model": "Galaxy A71 5G",
-    "model_number": "SM-A716S",
-    "chipset": "Not verified",
-    "android_version": "Not verified",
-    "tools": [
-      {
-        "function": "FRP",
-        "name": "Unlock Tool",
-        "status": "Not Verified",
-        "version": "",
-        "note": "Exact model support needs verification"
-      },
-      {
-        "function": "FRP",
-        "name": "Chimera Tool",
-        "status": "Not Verified",
-        "version": "",
-        "note": "Exact model support needs verification"
-      },
-      {
-        "function": "Factory Reset",
-        "name": "Chimera Tool",
-        "status": "Not Verified",
-        "version": "",
-        "note": "Exact model support needs verification"
-      },
-      {
-        "function": "Flashing",
-        "name": "Odin",
-        "status": "Not Verified",
-        "version": "",
-        "note": "Firmware compatibility needs verification"
-      }
-    ]
-  },
-  {
-    "brand": "Xiaomi",
-    "model": "Redmi Note 12",
-    "model_number": "22101316G",
-    "chipset": "Not verified",
-    "android_version": "Not verified",
-    "tools": []
-  },
-  {
-    "brand": "Oppo",
-    "model": "Reno 8",
-    "model_number": "CPH2359",
-    "chipset": "Not verified",
-    "android_version": "Not verified",
-    "tools": []
-}
-];
-
-function displayModels(list){
-const results=document.getElementById("results");
-if(list.length===0){
-results.innerHTML='<div class="card">No matching model found. Please check the model name or number.</div>';
-return;
-}
-results.innerHTML=list.map(m=>`
-<div class="card">
-<h3>${m.brand} ${m.name}</h3>
-<div class="detail">
-<strong>Model Number:</strong> ${m.number}<br>
-<strong>Chipset:</strong> ${m.chipset}<br>
-<strong>Android:</strong> ${m.android}<br>
-<strong>Firmware:</strong> Check exact region and build<br>
-<strong>Tools:</strong> ${m.tools}<br>
-<strong>FRP Compatibility:</strong> ${m.frp}
-</div>
-</div>
-`).join("");
+async function loadDatabase(){
+  try{
+    const response = await fetch("./models.json");
+    if(!response.ok) throw new Error("models.json not found");
+    devices = await response.json();
+    document.getElementById("count").textContent =
+      devices.length + " models loaded";
+    showModels(devices);
+  }catch(error){
+    document.getElementById("count").textContent =
+      "Database file could not be loaded. Check models.json.";
+  }
 }
 
-function searchModels(){
-const query=document.getElementById("searchInput").value.toLowerCase().trim();
-const filtered=models.filter(m=>
-(m.brand+" "+m.name+" "+m.number).toLowerCase().includes(query)
-);
-displayModels(filtered);
+function showModels(list){
+  document.getElementById("details").classList.add("hidden");
+  const area = document.getElementById("models");
+  area.innerHTML = "";
+
+  list.forEach((device,index)=>{
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const title = document.createElement("h3");
+    title.textContent = device.brand + " " + device.model;
+
+    const number = document.createElement("p");
+    number.className = "small";
+    number.textContent = "Model: " + (device.model_number || "Not listed");
+
+    const button = document.createElement("button");
+    button.textContent = "View Details";
+    button.onclick = ()=>showDetails(index);
+
+    card.append(title,number,button);
+    area.appendChild(card);
+  });
 }
 
-document.getElementById("searchInput").addEventListener("input",searchModels);
-displayModels(models);
+function showDetails(index){
+  const d = devices[index];
+  const area = document.getElementById("details");
+  document.getElementById("models").innerHTML = "";
+  area.classList.remove("hidden");
+  area.innerHTML = "";
+
+  const title = document.createElement("h2");
+  title.textContent = d.brand + " " + d.model;
+  area.appendChild(title);
+
+  addInfo(area,"Model Number",d.model_number);
+  addInfo(area,"Chipset",d.chipset);
+  addInfo(area,"Android Version",d.android_version);
+
+  const heading = document.createElement("h3");
+  heading.textContent = "GSM Tool Compatibility";
+  area.appendChild(heading);
+
+  const functions = [
+    ["FRP","FRP"],
+    ["Factory Reset","Factory Reset"],
+    ["Flashing","Flashing"],
+    ["Firmware","Firmware"]
+  ];
+
+  functions.forEach(([label,key])=>{
+    const section = document.createElement("div");
+    section.className = "card";
+
+    const h = document.createElement("h3");
+    h.textContent = label;
+    section.appendChild(h);
+
+    const tools = (d.tools || []).filter(t=>t.function===key);
+
+    if(!tools.length){
+      const p = document.createElement("p");
+      p.className = "unknown";
+      p.textContent = "Not Verified";
+      section.appendChild(p);
+    }else{
+      tools.forEach(tool=>{
+        const p = document.createElement("p");
+        p.textContent =
+          tool.name + " — " + tool.status +
+          (tool.version ? " | Version: "+tool.version : "") +
+          (tool.note ? " | "+tool.note : "");
+        p.className =
+          tool.status === "Supported" ? "good" : "unknown";
+        section.appendChild(p);
+      });
+    }
+    area.appendChild(section);
+  });
+
+  const back = document.createElement("button");
+  back.textContent = "Back to Models";
+  back.onclick = ()=>showModels(devices);
+  area.appendChild(back);
+}
+
+function addInfo(parent,label,value){
+  const p = document.createElement("p");
+  p.textContent = label + ": " + (value || "Not listed");
+  parent.appendChild(p);
+}
+
+document.getElementById("search").addEventListener("input",e=>{
+  const q = e.target.value.toLowerCase();
+  showModels(devices.filter(d=>
+    [d.brand,d.model,d.model_number].some(v=>
+      (v || "").toLowerCase().includes(q)
+    )
+  ));
+});
+
+loadDatabase();
 </script>
-
 </body>
 </html>
