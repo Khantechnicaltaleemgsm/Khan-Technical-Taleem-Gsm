@@ -3,154 +3,493 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080f1e">
 <title>Khan Technical Taleem GSM</title>
+
 <style>
-body{margin:0;background:#071426;color:#fff;font-family:Arial,sans-serif}
-header{padding:22px;background:#10233d;text-align:center}
-h1{color:#38bdf8;margin:5px}
-main{max-width:900px;margin:25px auto;padding:15px}
-input{width:100%;padding:15px;box-sizing:border-box;border-radius:9px;border:1px solid #345;background:#10233d;color:white;font-size:16px}
-.card{background:#10233d;padding:16px;margin:12px 0;border-radius:10px;border:1px solid #23415f}
-button{background:#087eaf;color:white;border:0;padding:10px 14px;border-radius:7px;margin:5px;cursor:pointer}
-.small{color:#9fb4ca}
-.good{color:#4ade80}.unknown{color:#fbbf24}
-.hidden{display:none}
+:root {
+  --bg:#080f1e;
+  --panel:#101b2d;
+  --panel2:#142239;
+  --border:#263750;
+  --text:#edf4ff;
+  --muted:#91a3bd;
+  --blue:#3987ff;
+  --green:#27c995;
+}
+* {box-sizing:border-box}
+body {
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Arial,Helvetica,sans-serif;
+}
+button,input {font:inherit}
+button {cursor:pointer}
+header {
+  position:sticky;top:0;z-index:10;
+  background:#0b1424;
+  border-bottom:1px solid var(--border);
+  padding:17px 16px;
+}
+.header-inner {
+  max-width:1100px;margin:auto;
+  display:flex;align-items:center;
+  justify-content:space-between;gap:12px;
+}
+.logo {font-size:19px;font-weight:800}
+.logo span {color:var(--blue)}
+.top-actions {display:flex;gap:8px;flex-wrap:wrap}
+.btn {
+  background:var(--panel2);
+  color:var(--text);
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:10px 13px;
+}
+.btn:hover,.btn.active {
+  border-color:var(--blue);
+  background:#1b3455;
+}
+main {max-width:1100px;margin:28px auto;padding:0 16px}
+.hero {text-align:center;margin:35px 0 25px}
+.hero h1 {font-size:30px;margin:0 0 10px}
+.hero p {color:var(--muted);margin:0}
+.search-wrap {max-width:700px;margin:25px auto}
+.search {
+  width:100%;padding:17px 18px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background:var(--panel);
+  color:white;outline:none;
+}
+.search:focus {border-color:var(--blue)}
+.tabs {
+  display:flex;gap:9px;
+  justify-content:center;margin:20px 0 30px;
+}
+.section-title {
+  display:flex;align-items:center;
+  justify-content:space-between;
+  gap:10px;margin:25px 0 16px;
+}
+.section-title h2 {font-size:21px;margin:0}
+.muted {color:var(--muted)}
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(155px,1fr));
+  gap:12px;
+}
+.card {
+  background:var(--panel);
+  border:1px solid var(--border);
+  padding:17px;border-radius:12px;
+  min-height:90px;
+  transition:.2s;
+}
+.card:hover {
+  border-color:var(--blue);
+  transform:translateY(-2px);
+}
+.card h3 {font-size:15px;margin:0 0 8px}
+.card p {font-size:12px;color:var(--muted);margin:0}
+.brand-icon {
+  width:34px;height:34px;
+  border-radius:9px;
+  background:#1b3455;
+  display:grid;place-items:center;
+  font-weight:bold;color:#8ebaff;
+  margin-bottom:12px;
+}
+.back {margin:10px 0 18px}
+.panel {
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:13px;padding:18px;
+  margin:14px 0;
+}
+.panel h3 {margin:0 0 12px}
+.table-wrap {overflow-x:auto}
+table {width:100%;border-collapse:collapse;min-width:520px}
+th,td {
+  padding:13px 10px;
+  border-bottom:1px solid var(--border);
+  text-align:left;font-size:14px;
+}
+th {color:var(--muted);font-weight:600}
+.status {
+  display:inline-block;
+  padding:5px 8px;border-radius:6px;
+  font-size:11px;font-weight:bold;
+  background:#493b20;color:#ffd27a;
+}
+.status.ok {background:#123c35;color:#64e5bd}
+.status.no {background:#3b2630;color:#ff9bad}
+.small {font-size:12px;color:var(--muted)}
+footer {
+  border-top:1px solid var(--border);
+  margin-top:55px;padding:25px 16px;
+  text-align:center;color:var(--muted);
+  font-size:13px;
+}
+.hidden {display:none!important}
+.modal {
+  position:fixed;inset:0;z-index:30;
+  background:#000b;display:none;
+  align-items:center;justify-content:center;
+  padding:18px;
+}
+.modal.show {display:flex}
+.modal-box {
+  width:100%;max-width:550px;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:15px;padding:22px;
+  max-height:80vh;overflow:auto;
+}
+.modal-head {
+  display:flex;justify-content:space-between;
+  align-items:center;margin-bottom:15px;
+}
+.modal-head h2 {font-size:19px;margin:0}
+.empty {text-align:center;padding:35px;color:var(--muted)}
+@media(max-width:600px) {
+  .header-inner {align-items:flex-start;flex-direction:column}
+  .hero h1 {font-size:25px}
+  .grid {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .top-actions {width:100%}
+  .top-actions button {flex:1}
+}
 </style>
 </head>
+
 <body>
 <header>
-<h1>Khan Technical Taleem GSM</h1>
-<p>Mobile Models & GSM Tool Database</p>
+  <div class="header-inner">
+    <div class="logo">Khan Technical <span>Taleem GSM</span></div>
+    <div class="top-actions">
+      <button class="btn" onclick="showModal('news')">What's new</button>
+      <button class="btn" onclick="showModal('sources')">Sources & status</button>
+      <button class="btn" onclick="installApp()">Install app</button>
+    </div>
+  </div>
 </header>
 
 <main>
-<input id="search" placeholder="Search brand, model or model number...">
-<p id="count" class="small">Loading models...</p>
-<section id="models"></section>
-<section id="details" class="hidden"></section>
+  <section class="hero">
+    <h1>GSM Tool Compatibility Database</h1>
+    <p>Find mobile models and check servicing tool compatibility.</p>
+  </section>
+
+  <div class="search-wrap">
+    <input id="search" class="search"
+      placeholder="Search a model — A52, SM-A525F, Redmi Note..."
+      oninput="searchDevices()">
+  </div>
+
+  <div class="tabs">
+    <button class="btn active" id="brandsTab" onclick="openBrands()">Brands</button>
+    <button class="btn" id="toolsTab" onclick="openTools()">Tools</button>
+  </div>
+
+  <section id="searchResults" class="hidden">
+    <div class="section-title"><h2>Search results</h2></div>
+    <div id="resultsGrid" class="grid"></div>
+  </section>
+
+  <section id="brandsView">
+    <div class="section-title">
+      <h2>‹ Brands</h2>
+      <span class="small" id="brandCount"></span>
+    </div>
+    <div id="brandsGrid" class="grid"></div>
+  </section>
+
+  <section id="modelsView" class="hidden">
+    <button class="btn back" onclick="openBrands()">‹ Brands</button>
+    <div class="section-title">
+      <h2 id="modelsHeading">Models</h2>
+    </div>
+    <div id="modelsGrid" class="grid"></div>
+  </section>
+
+  <section id="supportView" class="hidden">
+    <button class="btn back" onclick="backToModels()">‹ Models</button>
+    <div class="section-title">
+      <h2 id="supportHeading">Tool support</h2>
+    </div>
+    <div id="deviceInfo" class="panel"></div>
+    <div class="panel">
+      <h3>Tool compatibility</h3>
+      <p class="small">Only verified information should be treated as confirmed support.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Tool</th><th>Function</th><th>Status</th></tr>
+          </thead>
+          <tbody id="supportTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="toolsView" class="hidden">
+    <div class="section-title"><h2>GSM Tools</h2></div>
+    <div id="toolsGrid" class="grid"></div>
+  </section>
 </main>
 
+<footer>
+  <strong>Khan Technical Taleem GSM</strong>
+  <p>GSM Device & Tool Compatibility Database</p>
+  <p>Always verify compatibility with the official tool source before servicing.</p>
+</footer>
+
+<div class="modal" id="modal" onclick="closeModal(event)">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h2 id="modalTitle">Information</h2>
+      <button class="btn" onclick="hideModal()">Close ✕</button>
+    </div>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
 <script>
-let devices = [];
+// DEVICE DATABASE
+// Add more devices inside this array.
+// Do not mark tool support as Verified without a reliable source.
 
-async function loadDatabase(){
-  try{
-    const response = await fetch("./models.json");
-    if(!response.ok) throw new Error("models.json not found");
-    devices = await response.json();
-    document.getElementById("count").textContent =
-      devices.length + " models loaded";
-    showModels(devices);
-  }catch(error){
-    document.getElementById("count").textContent =
-      "Database file could not be loaded. Check models.json.";
-  }
+const devices = [
+ {
+  brand:"Samsung",name:"Galaxy A52",model:"SM-A525F",
+  tools:[
+   {name:"Odin",function:"Firmware / Flashing",status:"Not Verified",source:"Needs official confirmation"},
+   {name:"SamFW Tool",function:"FRP / Servicing",status:"Not Verified",source:"Needs official confirmation"},
+   {name:"Unlock Tool",function:"FRP / Factory Reset",status:"Not Verified",source:"Needs official confirmation"},
+   {name:"Chimera Tool",function:"Servicing",status:"Not Verified",source:"Needs official confirmation"}
+  ]
+ },
+ {
+  brand:"Samsung",name:"Galaxy A71 5G",model:"SM-A716S",
+  tools:[
+   {name:"Odin",function:"Firmware / Flashing",status:"Not Verified",source:"Needs official confirmation"},
+   {name:"Unlock Tool",function:"FRP / Servicing",status:"Not Verified",source:"Needs official confirmation"},
+   {name:"Chimera Tool",function:"Servicing",status:"Not Verified",source:"Needs official confirmation"}
+  ]
+ },
+ {
+  brand:"Samsung",name:"Galaxy S23",model:"SM-S911B",tools:[]
+ },
+ {
+  brand:"Samsung",name:"Galaxy A15",model:"SM-A155F",tools:[]
+ },
+ {
+  brand:"Xiaomi",name:"Redmi Note 12",model:"22101316G",tools:[]
+ },
+ {
+  brand:"Xiaomi",name:"Redmi Note 13",model:"2312DRAABG",tools:[]
+ },
+ {
+  brand:"Xiaomi",name:"POCO X5 Pro",model:"22101320G",tools:[]
+ },
+ {
+  brand:"Redmi",name:"Redmi 12",model:"23053RN02A",tools:[]
+ },
+ {
+  brand:"POCO",name:"POCO M6 Pro",model:"2312FPCA6G",tools:[]
+ },
+ {
+  brand:"Oppo",name:"Reno 8",model:"CPH2359",tools:[]
+ },
+ {
+  brand:"Oppo",name:"A78",model:"CPH2483",tools:[]
+ },
+ {
+  brand:"Vivo",name:"V27",model:"V2246",tools:[]
+ },
+ {
+  brand:"Realme",name:"Realme 11",model:"RMX3636",tools:[]
+ },
+ {
+  brand:"OnePlus",name:"OnePlus 11",model:"CPH2449",tools:[]
+ },
+ {
+  brand:"Tecno",name:"Camon 20",model:"CK6",tools:[]
+ },
+ {
+  brand:"Infinix",name:"Hot 30",model:"X6831",tools:[]
+ },
+ {
+  brand:"Google Pixel",name:"Pixel 7",model:"GVU6C",tools:[]
+ },
+ {
+  brand:"Motorola",name:"Moto G Power",model:"XT2311",tools:[]
+ },
+ {
+  brand:"Huawei",name:"P30 Pro",model:"VOG-L29",tools:[]
+ }
+];
+
+const brands = [
+ "Samsung","Xiaomi","Redmi","POCO","Oppo","Vivo","iQOO",
+ "Realme","OnePlus","Tecno","Infinix","itel","Huawei",
+ "Honor","Motorola","Nokia","Google Pixel","Sony","LG",
+ "Asus","Lenovo","ZTE","Meizu","Nothing"
+];
+
+const toolNames = [
+ "Unlock Tool","Chimera Tool","SigmaKey","Odin",
+ "SamFW Tool","MRT Tool","UFi Box","Hydra Tool",
+ "Pandora Tool","SP Flash Tool","Mi Flash Tool",
+ "QFIL","QPST","Research Download","UnlockTool"
+];
+
+let selectedBrand = "";
+let selectedDevice = null;
+let installPrompt = null;
+
+function el(id){return document.getElementById(id)}
+
+function hideViews(){
+ ["brandsView","modelsView","supportView","toolsView","searchResults"]
+ .forEach(id=>el(id).classList.add("hidden"));
 }
 
-function showModels(list){
-  document.getElementById("details").classList.add("hidden");
-  const area = document.getElementById("models");
-  area.innerHTML = "";
-
-  list.forEach((device,index)=>{
-    const card = document.createElement("div");
-    card.className = "card";
-
-    const title = document.createElement("h3");
-    title.textContent = device.brand + " " + device.model;
-
-    const number = document.createElement("p");
-    number.className = "small";
-    number.textContent = "Model: " + (device.model_number || "Not listed");
-
-    const button = document.createElement("button");
-    button.textContent = "View Details";
-    button.onclick = ()=>showDetails(index);
-
-    card.append(title,number,button);
-    area.appendChild(card);
-  });
+function setTab(which){
+ el("brandsTab").classList.toggle("active",which==="brands");
+ el("toolsTab").classList.toggle("active",which==="tools");
 }
 
-function showDetails(index){
-  const d = devices[index];
-  const area = document.getElementById("details");
-  document.getElementById("models").innerHTML = "";
-  area.classList.remove("hidden");
-  area.innerHTML = "";
-
-  const title = document.createElement("h2");
-  title.textContent = d.brand + " " + d.model;
-  area.appendChild(title);
-
-  addInfo(area,"Model Number",d.model_number);
-  addInfo(area,"Chipset",d.chipset);
-  addInfo(area,"Android Version",d.android_version);
-
-  const heading = document.createElement("h3");
-  heading.textContent = "GSM Tool Compatibility";
-  area.appendChild(heading);
-
-  const functions = [
-    ["FRP","FRP"],
-    ["Factory Reset","Factory Reset"],
-    ["Flashing","Flashing"],
-    ["Firmware","Firmware"]
-  ];
-
-  functions.forEach(([label,key])=>{
-    const section = document.createElement("div");
-    section.className = "card";
-
-    const h = document.createElement("h3");
-    h.textContent = label;
-    section.appendChild(h);
-
-    const tools = (d.tools || []).filter(t=>t.function===key);
-
-    if(!tools.length){
-      const p = document.createElement("p");
-      p.className = "unknown";
-      p.textContent = "Not Verified";
-      section.appendChild(p);
-    }else{
-      tools.forEach(tool=>{
-        const p = document.createElement("p");
-        p.textContent =
-          tool.name + " — " + tool.status +
-          (tool.version ? " | Version: "+tool.version : "") +
-          (tool.note ? " | "+tool.note : "");
-        p.className =
-          tool.status === "Supported" ? "good" : "unknown";
-        section.appendChild(p);
-      });
-    }
-    area.appendChild(section);
-  });
-
-  const back = document.createElement("button");
-  back.textContent = "Back to Models";
-  back.onclick = ()=>showModels(devices);
-  area.appendChild(back);
+function openBrands(){
+ hideViews();
+ el("brandsView").classList.remove("hidden");
+ setTab("brands");
+ el("search").value="";
 }
 
-function addInfo(parent,label,value){
-  const p = document.createElement("p");
-  p.textContent = label + ": " + (value || "Not listed");
-  parent.appendChild(p);
+function renderBrands(){
+ el("brandCount").textContent=brands.length+" brands";
+ el("brandsGrid").innerHTML=brands.map((brand,i)=>`
+  <div class="card" onclick="openBrand('${brand}')">
+   <div class="brand-icon">${brand.substring(0,2).toUpperCase()}</div>
+   <h3>${brand}</h3>
+   <p>${devices.filter(d=>d.brand===brand).length} listed models</p>
+  </div>
+ `).join("");
 }
 
-document.getElementById("search").addEventListener("input",e=>{
-  const q = e.target.value.toLowerCase();
-  showModels(devices.filter(d=>
-    [d.brand,d.model,d.model_number].some(v=>
-      (v || "").toLowerCase().includes(q)
-    )
-  ));
+function openBrand(brand){
+ selectedBrand=brand;
+ hideViews();
+ el("modelsView").classList.remove("hidden");
+ setTab("brands");
+ el("modelsHeading").textContent=brand+" Models";
+ const list=devices.filter(d=>d.brand===brand);
+ el("modelsGrid").innerHTML=list.length ? list.map((d,i)=>`
+  <div class="card" onclick="openDevice(${devices.indexOf(d)})">
+   <h3>${d.name}</h3>
+   <p>${d.model}</p>
+  </div>
+ `).join("") : `<div class="empty">No models added yet for ${brand}.</div>`;
+}
+
+function openDevice(index){
+ selectedDevice=devices[index];
+ if(!selectedDevice)return;
+ hideViews();
+ el("supportView").classList.remove("hidden");
+ el("supportHeading").textContent=selectedDevice.name+" — Tool support";
+ el("deviceInfo").innerHTML=`
+  <h3>${selectedDevice.brand} ${selectedDevice.name}</h3>
+  <p class="muted">Model number: <strong>${selectedDevice.model}</strong></p>
+ `;
+ const rows=selectedDevice.tools || [];
+ el("supportTable").innerHTML=rows.length ? rows.map(t=>`
+  <tr>
+   <td><strong>${t.name}</strong><br><span class="small">${t.source||""}</span></td>
+   <td>${t.function}</td>
+   <td><span class="status ${t.status==="Verified"?"ok":""}">${t.status}</span></td>
+  </tr>
+ `).join("") : `
+  <tr><td colspan="3" class="empty">
+   No verified tool compatibility has been added for this model yet.
+  </td></tr>`;
+}
+
+function backToModels(){openBrand(selectedBrand)}
+
+function openTools(){
+ hideViews();
+ el("toolsView").classList.remove("hidden");
+ setTab("tools");
+ el("search").value="";
+ el("toolsGrid").innerHTML=toolNames.map(t=>`
+  <div class="card">
+   <div class="brand-icon">GSM</div>
+   <h3>${t}</h3>
+   <p>Tool information</p>
+  </div>
+ `).join("");
+}
+
+function searchDevices(){
+ const q=el("search").value.trim().toLowerCase();
+ if(!q){hideViews();el("brandsView").classList.remove("hidden");return;}
+ hideViews();
+ el("searchResults").classList.remove("hidden");
+ const found=devices.filter(d=>
+  d.name.toLowerCase().includes(q)||
+  d.model.toLowerCase().includes(q)||
+  d.brand.toLowerCase().includes(q)
+ );
+ el("resultsGrid").innerHTML=found.length ? found.map(d=>`
+  <div class="card" onclick="openDevice(${devices.indexOf(d)})">
+   <h3>${d.brand} ${d.name}</h3>
+   <p>${d.model}</p>
+  </div>
+ `).join("") : `<div class="empty">No matching model found.</div>`;
+}
+
+function showModal(type){
+ const title=type==="news"?"What's new":"Sources & status";
+ el("modalTitle").textContent=title;
+ if(type==="news"){
+  el("modalContent").innerHTML=`
+   <h3>Welcome to Khan Technical Taleem GSM</h3>
+   <p class="muted">This database is being developed. New device models and verified tool information will be added over time.</p>
+  `;
+ }else{
+  el("modalContent").innerHTML=`
+   <h3>About this database</h3>
+   <p>Tool compatibility must be checked against official tool device lists, update pages or official support channels.</p>
+   <p><span class="status ok">Verified</span> means a reliable source has confirmed the specific model and function.</p>
+   <p><span class="status">Not Verified</span> means support has not yet been confirmed. Do not assume compatibility.</p>
+   <p class="small">Use tools only on devices you own or are authorized to service. IMEI functions are not included.</p>
+  `;
+ }
+ el("modal").classList.add("show");
+}
+
+function hideModal(){el("modal").classList.remove("show")}
+function closeModal(event){if(event.target===el("modal"))hideModal()}
+
+function installApp(){
+ if(installPrompt){
+  installPrompt.prompt();
+  installPrompt=null;
+ }else{
+  alert("If supported, use your browser menu and choose Add to Home Screen.");
+ }
+}
+
+window.addEventListener("beforeinstallprompt",e=>{
+ e.preventDefault();installPrompt=e;
 });
 
-loadDatabase();
+renderBrands();
+openBrands();
 </script>
 </body>
 </html>
