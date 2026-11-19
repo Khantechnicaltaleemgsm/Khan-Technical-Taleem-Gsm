@@ -1,1 +1,3917 @@
-
+[
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S6",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2015",
+    "chipset": "Exynos 7420",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S6 edge",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2015",
+    "chipset": "Exynos 7420",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Note 5",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2015",
+    "chipset": "Exynos 7420",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S7",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Exynos 8890 / Snapdragon 820 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S7 edge",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Exynos 8890 / Snapdragon 820 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Note 7",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Exynos 8890 / Snapdragon 820 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S8",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2017",
+    "chipset": "Exynos 8895 / Snapdragon 835 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S8+",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2017",
+    "chipset": "Exynos 8895 / Snapdragon 835 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Note 8",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2017",
+    "chipset": "Exynos 8895 / Snapdragon 835 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S9",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Exynos 9810 / Snapdragon 845 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S9+",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Exynos 9810 / Snapdragon 845 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Note 9",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Exynos 9810 / Snapdragon 845 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S10",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Exynos 9820 / Snapdragon 855 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S10+",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Exynos 9820 / Snapdragon 855 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Note 10",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Exynos 9825 / Snapdragon 855 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S20",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Exynos 990 / Snapdragon 865 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S20+",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Exynos 990 / Snapdragon 865 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Note 20 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Exynos 990 / Snapdragon 865+ (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S21",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Exynos 2100 / Snapdragon 888 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S21 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Exynos 2100 / Snapdragon 888 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold3",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 888",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S22",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Exynos 2200 / Snapdragon 8 Gen 1 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S22 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Exynos 2200 / Snapdragon 8 Gen 1 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip4",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 8+ Gen 1",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S23",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 2 for Galaxy",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S23 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 2 for Galaxy",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold5",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 2 for Galaxy",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S24",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Exynos 2400 / Snapdragon 8 Gen 3 (region dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S24 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 8 Gen 3 for Galaxy",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S25 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2025",
+    "chipset": "Snapdragon 8 Elite for Galaxy",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Mi 5",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 820",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Mi 6",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2017",
+    "chipset": "Snapdragon 835",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Mi 8",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Snapdragon 845",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Mi 9",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Snapdragon 855",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Mi 10",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Snapdragon 865",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Mi 11",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 888",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "12",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 8 Gen 1",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "13",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 2",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "14",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 8 Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "15",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2025",
+    "chipset": "Snapdragon 8 Elite",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Redmi",
+    "name": "Note 8",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Snapdragon 665",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Redmi",
+    "name": "Note 9",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "MediaTek Helio G85 / Snapdragon 720G (variant dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Redmi",
+    "name": "Note 10",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 678 / Snapdragon 732G (variant dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Redmi",
+    "name": "Note 11",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 680 / MediaTek Helio G96 (variant dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Redmi",
+    "name": "Note 12",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 685 / MediaTek Dimensity 1080 (variant dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Redmi",
+    "name": "Note 13",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 685 / MediaTek Dimensity 6080 (variant dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Redmi",
+    "name": "Note 14",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2025",
+    "chipset": "MediaTek Dimensity 7025-Ultra / Snapdragon 7s Gen 3 (variant dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "OnePlus 3",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 820",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "5",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2017",
+    "chipset": "Snapdragon 835",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "6",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Snapdragon 845",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "7 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Snapdragon 855",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "8 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Snapdragon 865",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "9 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 888",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "10 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 8 Gen 1",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "11",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 2",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "12",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 8 Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "OnePlus",
+    "name": "13",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2025",
+    "chipset": "Snapdragon 8 Elite",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 821",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 2",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2017",
+    "chipset": "Snapdragon 835",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 3",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Snapdragon 845",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 4",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Snapdragon 855",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 5",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Snapdragon 765G",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 6",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Google Tensor",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 7",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Google Tensor G2",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 8",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Google Tensor G3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 9",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Google Tensor G4",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 10",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2025",
+    "chipset": "Google Tensor G5",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Oppo",
+    "name": "Find X",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Snapdragon 845",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Oppo",
+    "name": "Reno 2",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Snapdragon 730G",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Oppo",
+    "name": "Find X2 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Snapdragon 865",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Oppo",
+    "name": "Find X3 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 888",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Oppo",
+    "name": "Find X5 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 8 Gen 1 / MediaTek Dimensity 9000 (variant dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Oppo",
+    "name": "Find X6 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 2",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Oppo",
+    "name": "Find X7 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 8 Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Oppo",
+    "name": "Find X8 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "MediaTek Dimensity 9400",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Vivo",
+    "name": "Xplay 5",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 652 / Snapdragon 820 (variant dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Vivo",
+    "name": "X20",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2017",
+    "chipset": "Snapdragon 660",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Vivo",
+    "name": "NEX",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Snapdragon 845",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Vivo",
+    "name": "X50 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Snapdragon 765G",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Vivo",
+    "name": "X70 Pro+",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 888+",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Vivo",
+    "name": "X80 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 8 Gen 1 / MediaTek Dimensity 9000 (variant dependent)",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Vivo",
+    "name": "X90 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "MediaTek Dimensity 9200",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Vivo",
+    "name": "X100 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "MediaTek Dimensity 9300",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Vivo",
+    "name": "X200 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "MediaTek Dimensity 9400",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Realme",
+    "name": "X2 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Snapdragon 855+",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Realme",
+    "name": "X50 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Snapdragon 865",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Realme",
+    "name": "GT",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 888",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Realme",
+    "name": "GT 2 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 8 Gen 1",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Realme",
+    "name": "GT 5 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Realme",
+    "name": "GT 6",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 8s Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Motorola",
+    "name": "Moto G4 Plus",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 617",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Motorola",
+    "name": "Moto Z",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 820",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Motorola",
+    "name": "Edge 20 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 870",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Motorola",
+    "name": "Edge 30 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 8+ Gen 1",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Motorola",
+    "name": "Edge 50 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 8s Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Sony",
+    "name": "Xperia XZ",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 820",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Sony",
+    "name": "Xperia XZ1",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2017",
+    "chipset": "Snapdragon 835",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Sony",
+    "name": "Xperia 1",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Snapdragon 855",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Sony",
+    "name": "Xperia 1 II",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Snapdragon 865",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Sony",
+    "name": "Xperia 1 V",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 2",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Sony",
+    "name": "Xperia 1 VI",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 8 Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Asus",
+    "name": "Zenfone 3",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 625",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Asus",
+    "name": "Zenfone 5Z",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Snapdragon 845",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Asus",
+    "name": "ROG Phone 2",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Snapdragon 855+",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Asus",
+    "name": "ROG Phone 5",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 888",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Asus",
+    "name": "ROG Phone 8 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 8 Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Tecno",
+    "name": "Phantom X2 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "MediaTek Dimensity 9000",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Tecno",
+    "name": "Camon 20 Pro 5G",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "MediaTek Dimensity 8050",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Tecno",
+    "name": "Phantom V Fold",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "MediaTek Dimensity 9000+",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Tecno",
+    "name": "Phantom V Fold2",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "MediaTek Dimensity 9000+",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Infinix",
+    "name": "Zero Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "MediaTek Dimensity 920",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Infinix",
+    "name": "GT 10 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "MediaTek Dimensity 8050",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Infinix",
+    "name": "Zero 30 5G",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "MediaTek Dimensity 8020",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Infinix",
+    "name": "GT 20 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "MediaTek Dimensity 8200 Ultimate",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "name": "P9",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Kirin 955",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "name": "P10",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2017",
+    "chipset": "Kirin 960",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "name": "P20 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Kirin 970",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "name": "Mate 20 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2018",
+    "chipset": "Kirin 980",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "name": "P30 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Kirin 980",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "name": "Mate 40 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Kirin 9000",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Honor",
+    "name": "View 20",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2019",
+    "chipset": "Kirin 980",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Honor",
+    "name": "50",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 778G",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Honor",
+    "name": "Magic4 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 8 Gen 1",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Honor",
+    "name": "Magic5 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 2",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Honor",
+    "name": "Magic6 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "Snapdragon 8 Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Nothing",
+    "name": "Phone (1)",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 778G+",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Nothing",
+    "name": "Phone (2)",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8+ Gen 1",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Nothing",
+    "name": "Phone (2a)",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2024",
+    "chipset": "MediaTek Dimensity 7200 Pro",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Nothing",
+    "name": "Phone (3)",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2025",
+    "chipset": "Snapdragon 8s Gen 4",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Lenovo",
+    "name": "ZUK Z2 Pro",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 820",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "Lenovo",
+    "name": "Legion Phone Duel",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2020",
+    "chipset": "Snapdragon 865+",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "ZTE",
+    "name": "Axon 7",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2016",
+    "chipset": "Snapdragon 820",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "ZTE",
+    "name": "Axon 30 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2021",
+    "chipset": "Snapdragon 888",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "ZTE",
+    "name": "Axon 40 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2022",
+    "chipset": "Snapdragon 8 Gen 1",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  },
+  {
+    "brand": "ZTE",
+    "name": "Nubia Z60 Ultra",
+    "model": "Variant-specific model number not supplied",
+    "release_year": "2023",
+    "chipset": "Snapdragon 8 Gen 3",
+    "cpu": "See chipset specification; exact CPU configuration may vary by variant",
+    "android_version": "Varies by region and firmware",
+    "tools": [
+      {
+        "name": "Unlock Tool",
+        "function": "FRP",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Factory Reset",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      },
+      {
+        "name": "Unlock Tool",
+        "function": "Flashing",
+        "status": "Not Verified",
+        "source": "Model-specific official support confirmation required"
+      }
+    ]
+  }
+]
